@@ -1,0 +1,15 @@
+
+
+/* styles.css */
+
+
+.child {
+  display: flex;
+}
+
+.left,
+.right {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
