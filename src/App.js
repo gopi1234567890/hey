@@ -13,6 +13,8 @@ const App = () => {
   };
 
   return (
+    <div>
+
     <Router>
       <Routes>
         <Route path="/" element={<Login passdata={passdata} />} />
@@ -22,6 +24,7 @@ const App = () => {
         <Route path="/store1" element={<Store1 />} /> {/* New route for Store1 */}
       </Routes>
     </Router>
+    </div>
   );
 };
 export default App;
