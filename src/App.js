@@ -22,6 +22,8 @@ const App = () => {
           {/* Render Store1 outside of the Stores component */}
         </Route>
         <Route path="/store1" element={<Store1 />} /> {/* New route for Store1 */}
+        <Route path="/hey" element={<Login passdata={passdata} />} />
+
       </Routes>
     </Router>
     </div>
